@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Informationen zur ausschließlich persönlichen Nutzung von STEX rclone OAuth.">
+  <title>STEX rclone OAuth – Startseite</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f7f8fa; color: #18212b; font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    a { color: #174d80; text-underline-offset: 3px; }
+    a:hover { color: #103657; }
+    .wrap { width: min(760px, calc(100% - 40px)); margin: 0 auto; }
+    header { background: #fff; border-bottom: 1px solid #dce2e8; }
+    .head { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 80px; flex-wrap: wrap; padding: 12px 0; }
+    .brand { font-size: 1rem; font-weight: 750; letter-spacing: .01em; color: #172c40; text-decoration: none; }
+    nav a { margin-left: 20px; font-size: .92rem; }
+    main { margin-top: 46px; margin-bottom: 64px; background: #fff; border: 1px solid #dce2e8; border-radius: 14px; padding: clamp(24px,5vw,48px); }
+    h1 { margin: 0 0 14px; font-size: clamp(1.8rem,4vw,2.4rem); letter-spacing: -.035em; line-height: 1.2; }
+    h2 { margin: 30px 0 8px; font-size: 1.18rem; }
+    p { margin: 12px 0; }
+    .eyebrow { margin: 0 0 13px; font-size: .8rem; font-weight: 750; text-transform: uppercase; letter-spacing: .12em; color: #52687c; }
+    code { font-size: .89rem; background: #eef2f6; border-radius: 5px; padding: 2px 5px; overflow-wrap: anywhere; }
+    footer { font-size: .87rem; color: #526171; padding-bottom: 38px; }
+    @media (max-width: 480px) { nav a { margin-left: 0; margin-right: 16px; } }
+  </style>
+</head>
+<body>
+  <header><div class="wrap head">
+    <a class="brand" href="/">STEX rclone OAuth</a>
+    <nav aria-label="Hauptnavigation"><a href="/">Startseite</a><a href="/privacy.html">Datenschutzhinweise</a></nav>
+  </div></header>
+  <main class="wrap">
+    <p class="eyebrow">Private OAuth-Anwendung</p>
+    <h1>STEX rclone OAuth</h1>
+    <p>Diese OAuth-Anwendung ist ausschließlich für die persönliche Nutzung durch Stephan Masan vorgesehen. Sie ermöglicht der lokal ausgeführten Anwendung rclone, Dateien im eigenen Google-Drive-Konto zu verwalten.</p>
+    <h2>Google-Drive-Berechtigung</h2>
+    <p>Verwendeter OAuth-Scope: <code>https://www.googleapis.com/auth/drive</code></p>
+    <p>Dieser Scope erlaubt das Lesen, Erstellen, Bearbeiten und Löschen von Drive-Dateien. Die Nutzung erfolgt nur durch vom Betreiber veranlasste rclone-Aufrufe.</p>
+    <h2>Verarbeitung über diese Website</h2>
+    <p>Diese Informationswebsite bietet keinen Anmeldedienst, nimmt keine Drive-Dateien entgegen und speichert keine OAuth-Zugangsdaten. Ein eigener Anwendungsserver zur Verarbeitung der Drive-Inhalte ist nicht vorgesehen.</p>
+    <p>Weitere Angaben enthält die Seite <a href="/privacy.html">Datenschutzhinweise</a>.</p>
+    <h2>Betreiber und Kontakt</h2>
+    <p>Stephan Masan · <a href="mailto:stephanmasan@yahoo.de">stephanmasan@yahoo.de</a></p>
+  </main>
+  <footer class="wrap">Persönliche Anwendung · <a href="/privacy.html">Datenschutzhinweise</a></footer>
+</body>
+</html>
